@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+
 import os
 import argparse
 import datetime
@@ -8,6 +9,7 @@ import torchtext.datasets as datasets
 import model
 import train
 import mydatasets
+import requests
 
 
 parser = argparse.ArgumentParser(description='CNN text classificer')
